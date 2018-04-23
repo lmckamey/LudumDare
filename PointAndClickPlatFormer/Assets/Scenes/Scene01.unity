@@ -467,9 +467,9 @@ Prefab:
         type: 2}
       propertyPath: m_Text
       value: "\tYour name is Loungalot, you are a famous wizard. In fact you are one
-        of the most famous wizards in the kingdom! what makes you famous? The fact
+        of the most famous wizards in the kingdom! What makes you famous? The fact
         that you are increadibly lazy, you are known to only walk to your telepotation
-        circles, in fact that is the only way you get around. Durring one of your
+        circles. In fact, that is the only way you get around. During one of your
         teleportations you seem to have messed up and you are in some strange place.
         \n\tYou must find a way out of here. But be mindful, you only are able to
         teleport a limited number of times."
@@ -478,6 +478,11 @@ Prefab:
         type: 2}
       propertyPath: m_AnchoredPosition.y
       value: 18.76334
+      objectReference: {fileID: 0}
+    - target: {fileID: 114802651453058492, guid: 9ecd6a929a00fe14dbd2801b217bdbe7,
+        type: 2}
+      propertyPath: m_currentScene
+      value: Scene01
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 9ecd6a929a00fe14dbd2801b217bdbe7, type: 2}
@@ -684,7 +689,8 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Click were you want to teleport to, your range is limited so click wisley '
+  m_Text: Your goal is to reach the glowing thing. Click were you want to teleport
+    to, your range is limited so click wisley.
 --- !u!222 &909023545
 CanvasRenderer:
   m_ObjectHideFlags: 0
